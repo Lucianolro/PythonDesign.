@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Web Design e Automação - Python</title>
+    <meta name="description" content="Oferecemos serviços profissionais de web design e automação de processos utilizando Python. Transforme suas ideias em realidade.">
+    <meta name="keywords" content="web design, automação de processos, Python, desenvolvimento web, criação de sites, integração de APIs">
+    <meta name="author" content="Seu Nome">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header, footer {
+            background-color: #09640d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4CAF50;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #09640d;
+        }
+        .section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            background: url('fotos/banner.png') center center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+            border-radius: 8px;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .cta-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+        .cta-btn:hover {
+            background-color: #09640d;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card img {
+            max-width: 250px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            margin: 15px 0;
+            color: #333;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                padding: 80px 20px;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .cta-btn {
+                font-size: 1rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 0.9rem;
+            }
+            .cta-btn {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PythonDesign Co.</h1>
+        <p>Soluções Inteligentes em Web Design e Automação com Python</p>
+    </header>
+    <nav>
+        <a href="#hero" class="tab-link">Início</a>
+        <a href="#services" class="tab-link">Serviços</a>
+        <a href="#testimonials" class="tab-link">Depoimentos</a>
+        <a href="#contact" class="tab-link">Contato</a>
+    </nav>
+    <div id="hero" class="section hero reveal">
+        <h1></h1>
+        <p></p>
+    </div>
+    <section id="services" class="section services reveal">
+        <h2>Nossos Serviços</h2>
+        <div class="card">
+            <img src="fotos/sites.jpg" alt="Criação de Sites">
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvemos sites modernos, responsivos e otimizados para SEO.</p>
+        </div>
+        <div class="card">
+            <img src="fotos/automacao.png" alt="Automação de Processos">
+            <h3>Automação de Processos</h3>
+            <p>Reduza tarefas manuais com ferramentas inteligentes desenvolvidas em Python.</p>
+        </div>
+        <div class="card">
+            <img src="fotos/apis.jpg" alt="Integração com APIs">
+            <h3>Integração com APIs</h3>
+            <p>Conecte seus sistemas de forma eficiente para maximizar resultados.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="section testimonials reveal">
+        <h2>Depoimentos</h2>
+        <div class="card">
+            <img src="fotos/depoimento.png" alt="Cliente 1">
+            <h3>Cliente 1</h3>
+            <p>"A empresa transformou nosso site e automatizou processos, aumentando nossa produtividade!"</p>
+        </div>
+        <div class="card">
+            <img src="fotos/Captura de Tela (1).png" alt="Cliente 2">
+            <h3>Cliente 2</h3>
+            <p>"Serviços de alta qualidade e suporte excepcional. Recomendo para qualquer negócio!"</p>
+        </div>
+    </section>
+    <section id="contact" class="section contact reveal">
+        <h2>Contato</h2>
+        <div class="card">
+            <p><strong>Email:</strong> facebookgestortrafego@gmail.com</p>
+        </div>
+        <div class="card">
+            <p><strong>Telefone:</strong> +55 62 99336-4340</p>
+        </div>
+        <div class="card">
+            <a href="https://wa.me/5562993364340" class="cta-btn" target="_blank">Solicitar Orçamento via WhatsApp</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 PythonDesign Co. Todos os direitos reservados. Feito por Luciano Oliveira</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            ScrollReveal().reveal('.reveal', {
+                distance: '50px',
+                duration: 1000,
+                easing: 'ease-in-out',
+                origin: 'bottom',
+                reset: true
+            });
+
+            // Smooth scroll
+            $('nav a').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
